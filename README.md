@@ -1,10 +1,9 @@
-TypeScript HTML UL OnChange Demo
+TypeScript HTML DIV OnChange Demo
 =================================
 
-没想到`<ul>`也可以监听onChange事件。传过来的event是内部input等控件的事件。
+原来几乎所有的html标签都可以处理onChange。比如`div`，可以监听到内部其它组件（如`input`）等的onChange事件。
 
-注意：
-其实不止`div`，其它标签比如`div`也可以，似乎是一个通用处理。
+之前发现这个是因为看到有人在`<ul>`上监听onChange事件
 
 ```
 npm i
